@@ -1,0 +1,3 @@
+let json = "[\n    {\"english\": \"Hello\", \"vietnamese\": \"Xin chào\"},\n    {\"english\": \"Goodbye\", \"vietnamese\": \"Tạm biệt\"},\n    {\"english\": \"How are you?\", \"vietnamese\": \"Bạn có khỏe không?\"},\n    {\"english\": \"I’m fine, thank you\", \"vietnamese\": \"Tôi khỏe, cảm ơn\"},\n    {\"english\": \"What’s your name?\", \"vietnamese\": \"Bạn tên là gì?\"}\n]"
+
+console.log(JSON.parse(json))
